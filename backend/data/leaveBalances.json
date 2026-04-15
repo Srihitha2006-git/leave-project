@@ -1,0 +1,38 @@
+[
+  {
+    "userId": 3,
+    "total": 20,
+    "used": 0,
+    "remaining": 20
+  },
+  {
+    "userId": 1776066381067,
+    "total": 20,
+    "used": 4,
+    "remaining": 16
+  },
+  {
+    "userId": 1776066436159,
+    "total": 20,
+    "used": 0,
+    "remaining": 20
+  },
+  {
+    "userId": 1776108311605,
+    "total": 20,
+    "used": 0,
+    "remaining": 20
+  },
+  {
+    "userId": 1776109004779,
+    "total": 20,
+    "used": 0,
+    "remaining": 20
+  },
+  {
+    "userId": 1776142057840,
+    "total": 20,
+    "used": 3,
+    "remaining": 17
+  }
+]

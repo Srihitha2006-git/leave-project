@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1776073350762,
+    "userId": 1776066381067,
+    "startDate": "2026-04-15",
+    "endDate": "2026-04-18",
+    "reason": "want a leave to rest my brain",
+    "requestedDays": 4,
+    "status": "approved",
+    "appliedAt": "2026-04-13T09:42:30.762Z"
+  },
+  {
+    "id": 1776143064296,
+    "userId": 1776142057840,
+    "startDate": "2026-08-12",
+    "endDate": "2026-08-16",
+    "reason": "going for a trip with family",
+    "leaveType": "Casual Leave",
+    "requestedDays": 3,
+    "status": "approved",
+    "appliedAt": "2026-04-14T05:04:24.296Z"
+  }
+]

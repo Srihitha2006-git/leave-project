@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "name": "Admin",
+    "managerId": null
+  },
+  {
+    "id": 2,
+    "username": "manager1",
+    "password": "manager123",
+    "role": "manager",
+    "name": "Manager One",
+    "managerId": null
+  },
+  {
+    "id": 3,
+    "username": "employee1",
+    "password": "employee123",
+    "role": "employee",
+    "name": "Employee One",
+    "managerId": 2
+  },
+  {
+    "id": 1776066289622,
+    "name": "Varsha",
+    "username": "manager2@company.com",
+    "password": "manager2",
+    "role": "manager",
+    "managerId": null
+  },
+  {
+    "id": 1776066324139,
+    "name": "Srihitha",
+    "username": "manager3@company.com",
+    "password": "manager3",
+    "role": "manager",
+    "managerId": null
+  },
+  {
+    "id": 1776066381067,
+    "name": "Priyanka ",
+    "username": "employee2",
+    "password": "priyanka",
+    "role": "employee",
+    "managerId": 1776066289622
+  },
+  {
+    "id": 1776066436159,
+    "name": "swathi",
+    "username": "employee3",
+    "password": "swathi",
+    "role": "employee",
+    "managerId": 1776066289622
+  },
+  {
+    "id": 1776109004779,
+    "username": "employee4",
+    "password": "manisha",
+    "role": "employee",
+    "name": "manisha",
+    "managerId": 1776066324139
+  },
+  {
+    "id": 1776142057840,
+    "username": "Sona",
+    "password": "sona123",
+    "role": "employee",
+    "name": "Sona",
+    "managerId": 1776066324139
+  }
+]

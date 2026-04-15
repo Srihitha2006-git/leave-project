@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Republic Day",
+    "date": "2026-01-26",
+    "type": "public"
+  },
+  {
+    "id": 2,
+    "title": "Company Foundation Day",
+    "date": "2026-02-10",
+    "type": "corporate"
+  }
+]

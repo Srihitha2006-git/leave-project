@@ -8,10 +8,6 @@ const Holiday = require("./models/Holiday");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error("MongoDB error:", err));
 
 app.use(cors());
 app.use(express.json());
@@ -609,7 +605,16 @@ app.put("/api/leave-requests/:id", (req, res) => {
   res.json({ message: `Leave request ${status}` });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-});
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log("MongoDB connected");
+
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+
+  })
+  .catch((err) => {
+    console.error("MongoDB error:", err);
+  });
 

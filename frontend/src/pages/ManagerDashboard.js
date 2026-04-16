@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import "../App.css";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://leave-project.onrender.com/api";
 
 export default function ManagerDashboard({ user, setUser }) {
   const [activeSection, setActiveSection] = useState("overview");

@@ -380,7 +380,7 @@ app.get("/api/holidays", async (req, res) => {
     const holidays = await getAllHolidays();
     res.json(holidays);
   } catch (error) {
-    console.error("Get holidays error:", error);
+    console.error("HOLIDAYS ERROR:", error);
     res.status(500).json({ message: "Failed to fetch holidays" });
   }
 });

@@ -997,7 +997,7 @@ export default function AdminDashboard({ user, setUser }) {
                           <td>
                             <button
                               className="danger-btn"
-                              onClick={() => deleteHoliday(holiday.id, holiday.type)}
+                              onClick={() => deleteHoliday(holiday._id, holiday.type)}
                               type="button"
                             >
                               Delete

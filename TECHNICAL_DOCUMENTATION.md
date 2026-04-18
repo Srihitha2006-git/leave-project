@@ -81,15 +81,25 @@ User → React UI → API Request → Express Server → MongoDB
 
 ```text
 leave-management-system/
-├── frontend/             # Frontend (React)
-│   ├── public/           # Static assets
-│   ├── src/              # React components and pages
+├── frontend/             # Frontend (React App)
+│   ├── public/           # Static assets (index.html, logos, etc.)
+│   ├── src/
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/        # Dashboard views (Admin, Manager, Employee)
+│   │   ├── services/     # Frontend API / util logic
+│   │   ├── App.js        # Main React component
+│   │   └── index.js      # React DOM entry
 │   ├── package.json      # Client dependencies
 │   └── README.md
 ├── backend/              # Backend (Node + Express)
-│   ├── models/           # DB schemas (Mongoose)
-│   ├── data/             # Local JSON file data
-│   ├── server.js         # Express server entry point
+│   ├── config/           # Database configuration (db.js)
+│   ├── data/             # Local JSON storage (users.json, balances)
+│   ├── middleware/       # Custom Express middleware (roleMiddleware)
+│   ├── models/           # MongoDB Schemas (Holiday.js)
+│   ├── routes/           # REST API routes logic
+│   ├── utils/            # Helper logic (leaveCalculator.js)
+│   ├── seedHolidays.js   # Script to populate holidays database
+│   ├── server.js         # Core Express server entry point
 │   ├── package.json      # Server dependencies
 │   └── .env              # Environment variables
 └── TECHNICAL_DOCUMENTATION.md
